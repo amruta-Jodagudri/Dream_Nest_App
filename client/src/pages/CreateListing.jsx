@@ -9,6 +9,7 @@ import { IoIosImages } from "react-icons/io";
 import { useState } from "react";
 import { BiTrash } from "react-icons/bi";
 import { useSelector } from "react-redux";
+import Footer from '../components/Footer'
 import { useNavigate } from "react-router-dom";
 
 const CreateListing = () => {
@@ -518,7 +519,7 @@ const CreateListing = () => {
         </form>
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };
